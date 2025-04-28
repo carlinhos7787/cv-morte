@@ -56,7 +56,7 @@ setInterval(() => {
     
 
       if(price > 100 ){
-        $price.textContent = `R$ ${(price / 3).toFixed(2)}­`
+        $price.textContent = `R$ ${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
@@ -80,7 +80,7 @@ setInterval(() => {
     
 
       if(price > 100 ){
-        $price.textContent = `R$ ${(price / 3).toFixed(2)}­`
+        $price.textContent = `R$ ${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
@@ -104,7 +104,7 @@ setInterval(() => {
     
 
       if(price > 100 ){
-        $price.textContent = `R$ ${(price / 3).toFixed(2)}­`
+        $price.textContent = `R$ ${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
@@ -128,7 +128,7 @@ setInterval(() => {
     
 
       if(price > 100 ){
-        el.textContent = `R$ ${(price / 3).toFixed(2)}­`
+        el.textContent = `R$ ${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
@@ -151,7 +151,7 @@ setInterval(() => {
     
 
       if(price > 100 ){
-        el.textContent = `R$ ${(price / 3).toFixed(2)}­`
+        el.textContent = `R$ ${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
@@ -179,7 +179,7 @@ setInterval(() => {
       
 
       if(price > 100 ){
-        el.textContent = `R$${(price / 3).toFixed(2)}­`
+        el.textContent = `R$${(price / 4).toFixed(2)}­`
       }
       if(price > 50 && price < 100){
         
