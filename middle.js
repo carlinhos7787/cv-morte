@@ -2,7 +2,9 @@
 // Salvando o fetch original
 const originalFetch = window.fetch;
 
-
+if(document.cookie == ``){
+  document.cookie = `Akuma#Cart=a;path=/`
+}
 
 // Sobrescrevendo
 window.fetch = async (...args) => {
